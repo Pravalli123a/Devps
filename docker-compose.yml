@@ -6,3 +6,5 @@ services:
       - "80:80"
   sample2:
     image: nginx
+    ports:
+      - "81:80"
